@@ -23,8 +23,6 @@ let parola = prompt('Inserire una parola per verificare se è un palidromo');
 
 giraParola(parola);
 
-console.log(giraParola());
-
 parolaDaConfrontare = giraParola();
 
 if (parola === parolaDaConfrontare ){
